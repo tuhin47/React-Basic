@@ -9,7 +9,7 @@ module.exports = {
         publicPath: '/app/'
     },
     module: {
-        rules: [
+        loaders: [
             {
                 test: /\.js$/,
                 include: path.resolve(__dirname, 'src'),

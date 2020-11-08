@@ -36,3 +36,10 @@ Modifications I made in order for the tutorial to work with `babel-7`:
 1. In the `webpack.config.js` file, replace the presets **(line 18)** with the below
     presets: `['@babel/react', '@babel/preset-env']`
 
+## 3 - React Components
+- Most of our React code comprises of components
+    - Search bar component
+    - Sign-up component
+    - To-do list component
+        - List item component
+        - Add new item (form) component

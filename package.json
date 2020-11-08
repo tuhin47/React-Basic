@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuhin47/React-Basic.git"
+    "url": "git+https://github.com/iamshaunjp/react-playlist.git"
   },
   "keywords": [
     "react"
@@ -18,18 +18,18 @@
   "author": "The Net Ninja",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tuhin47/React-Basic/issues"
+    "url": "https://github.com/iamshaunjp/react-playlist/issues"
   },
-  "homepage": "https://github.com/tuhin47/React-Basic#readme",
+  "homepage": "https://github.com/iamshaunjp/react-playlist#readme",
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
-    "@babel/preset-react": "^7.12.5",
-    "babel-loader": "^8.1.0",
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
   }
