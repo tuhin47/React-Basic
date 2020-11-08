@@ -14,7 +14,7 @@
 
 - Search Component
 - Directory component
-- Dignup component
+- Signup component
 
 ### What we'll learn...
 - Installing React and setting up a workflow with webpack
@@ -23,5 +23,16 @@
 - Routing
 - create-react-app
 
-
+##2 - Setup with Webpack 
+Modifications I made in order for the tutorial to work with `babel-7`:
+1. replace `loaders` with `rules` in line 12 of webpack.config.js
+1. Use command for babel installation
+   ```
+   npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+   ```
+   
+1. Remove the old versions of babel from "devdependencies" in package.json file. 
+[Link](https://stackoverflow.com/questions/49182862/preset-files-are-not-allowed-to-export-objects) for reference.
+1. In the `webpack.config.js` file, replace the presets **(line 18)** with the below
+    presets: `['@babel/react', '@babel/preset-env']`
 
