@@ -43,3 +43,5 @@ Modifications I made in order for the tutorial to work with `babel-7`:
     - To-do list component
         - List item component
         - Add new item (form) component
+
+## 3.5 - React Dev Tools

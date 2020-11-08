@@ -5,7 +5,10 @@ var ReactDOM = require('react-dom');
 var TodoComponent = React.createClass({
     render: function(){
         return(
-            <h1>Ninjaas</h1>
+            <div>
+                <h1>Ninjaas</h1>
+                <p>TADA</p>
+            </div>
         );
     }
 });
