@@ -6,11 +6,14 @@ var TodoComponent = React.createClass({
     render: function(){
         return(
             <div>
-                <h1>Ninjaas</h1>
-                <p>TADA</p>
+                <p><strong>Cheese name: </strong> {this.props.cheese.name}</p>
+                <p><strong>Cheese smell factor: </strong> {this.props.cheese.smellFactor}</p>
+                <p><strong>Cheese price: </strong>£{this.props.cheese.price}</p>
             </div>
         );
     }
 });
 
-ReactDOM.render(<TodoComponent />, document.getElementById('todo-wrapper'));
+var myCheese = {name: 'Camembert', smellFactor: 'Extreme pong', price: 3.50 };
+
+ReactDOM.render(<TodoComponent cheese={myCheese} />, document.getElementById('todo-wrapper'));
