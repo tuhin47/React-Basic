@@ -45,3 +45,7 @@ Modifications I made in order for the tutorial to work with `babel-7`:
         - Add new item (form) component
 
 ## 3.5 - React Dev Tools
+
+## 5.5 Changing State (& Virtual DOM)
+
+React -> Virtual DOM -> DOM
