@@ -1,6 +1,6 @@
 # Learning React Basics
 
-## 1-Introduction
+## 1. Introduction
 
 ### What is React?
 - JavaScript framework for creating user interfaces
@@ -23,7 +23,7 @@
 - Routing
 - create-react-app
 
-##2 - Setup with Webpack 
+## 2. Setup with Webpack 
 Modifications I made in order for the tutorial to work with `babel-7`:
 1. replace `loaders` with `rules` in line 12 of webpack.config.js
 1. Use command for babel installation
@@ -36,7 +36,7 @@ Modifications I made in order for the tutorial to work with `babel-7`:
 1. In the `webpack.config.js` file, replace the presets **(line 18)** with the below
     presets: `['@babel/react', '@babel/preset-env']`
 
-## 3 - React Components
+## 3. React Components
 - Most of our React code comprises of components
     - Search bar component
     - Sign-up component
